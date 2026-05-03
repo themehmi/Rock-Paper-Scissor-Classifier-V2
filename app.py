@@ -61,7 +61,7 @@ st.markdown("""
 @st.cache_resource
 def load_engine():
     # Load the TFLite model specifically for 160x160 RGB tensors
-    interpreter = tf.lite.Interpreter(model_path="rps_model.tflite")
+    interpreter = tf.lite.Interpreter(model_path="rps_model (1).tflite")
     interpreter.allocate_tensors()
     return interpreter
 

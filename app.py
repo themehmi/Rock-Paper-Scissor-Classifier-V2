@@ -97,7 +97,7 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 
 # Prominent Disclaimer added here
-st.warning("⚠️ **Disclaimer:** This app only functions properly when the background is clean (black or white).", icon="⚠️")
+st.warning("**Disclaimer:** This app only functions properly when the background is clean (black or white).", icon="⚠️")
 st.write("---")
 
 mode = st.radio("", ("UPLOAD FILE", "USE CAMERA"), horizontal=True)
